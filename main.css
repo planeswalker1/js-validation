@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1360px;
@@ -37,7 +41,7 @@ html {
 }
 
 .error-message {
-  color: red;
+  color: #673ab7;
   visibility: hidden;
   margin: 1em 0;
 }
